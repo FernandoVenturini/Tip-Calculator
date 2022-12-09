@@ -1,0 +1,86 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100;300;500;700&display=swap');
+
+/* VARIAVEIS DE CORES */
+:root {
+    --first-color: black;
+    --second-color: red;
+    --third-color: gray;
+    --fourth-color: #fff;
+}
+
+body {
+    background-color: var(--third-color);
+    font-size: 1rem;
+    font-family: 'Inconsolata', sans-serif;
+}
+
+#container {
+    background: var(--first-color);
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    box-shadow: 5px 5px 5px var(--fourth-color);
+    border-radius: 10px;
+}
+
+.title {
+    background: var(--second-color);
+    color: var(--first-color);
+    padding: 20px;text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 3px solid var(--fourth-color);
+    text-align: center;
+}
+
+p {
+    color: var(--fourth-color);
+    font-size: 16px;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: var(--fourth-color);
+    width: 40px;
+    padding: 5px;
+}
+
+.formInput:focus {
+    border: 3px solid var(--second-color);
+    outline: none;
+}
+
+.formSelect {
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    cursor: pointer;
+    background: var(--third-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: var(--first-color);
+    box-shadow: 0px 0px 10px 2px var(--second-color);
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    color: var(--fourth-color);
+}
